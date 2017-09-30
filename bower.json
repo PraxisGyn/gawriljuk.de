@@ -1,0 +1,14 @@
+{
+  "name": "gawriljuk.de",
+  "homepage": "https://github.com/gallien/gawriljuk.de",
+  "authors": [
+    "Nguyen Mai Hoang <nguyenmaihoang1988@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "jQuery": "^3.2.1"
+  }
+}
