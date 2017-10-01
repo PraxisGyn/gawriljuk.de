@@ -18,15 +18,15 @@ p {
 .text-center {
     text-align: center;
 }
-.mehr-info .mehrinfo-aktiv {
+.button .button-aktiv {
     display: none;
 }
-.mehr-info:hover .mehrinfo-inaktiv,
-.mehr-info:active .mehrinfo-inaktiv {
+.button:hover .button-inaktiv,
+.button:active .button-inaktiv {
     display: none;
 }
-.mehr-info:hover .mehrinfo-aktiv,
-.mehr-info:active .mehrinfo-aktiv{
+.button:hover .button-aktiv,
+.button:active .button-aktiv{
     display: block;
     text-align: center;
 }
@@ -219,11 +219,21 @@ section:nth-child(2) {
 .contact-praxis{
     background-color: #467491;
     color: #ffffff !important;
+    padding-top: 50px;
+    padding-left: 350px;
+
 }
 .contact-praxis h4 {
     color: #ffffff;
+    margin-bottom: 37px;
 }
 .contact-time{
     background-color: #91acbc;
 
+}
+.group-button {
+    margin-top: 15px;
+}
+.group-button a{
+    margin-right: 17px;
 }
