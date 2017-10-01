@@ -13,21 +13,11 @@ body {
 p {
     font-family: "Open Sans", sans-serif;
     font-size: 20px;
+    text-transform: none;
 }
-
-/*.btn-info {
-    margin-top: 17px !important;
-    width: 138px;
-    border-radius: 1px;
-}*/
-/*.more-info{
-    margin: auto;
-    text-transform: uppercase;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    font-weight: bold;
-}*/
-
+.text-center {
+    text-align: center;
+}
 .mehr-info .mehrinfo-aktiv {
     display: none;
 }
@@ -39,6 +29,9 @@ p {
 .mehr-info:active .mehrinfo-aktiv{
     display: block;
     text-align: center;
+}
+.special-text{
+    color: #467491;
 }
 /*Nav Menu*/
 nav {
@@ -119,7 +112,7 @@ h3 {
 .gawriljuk {
     position: absolute;
     left: 50%;
-    margin-left: -184px;
+    margin-left: -157px;
     margin-top: 14%;
     text-transform: uppercase;
 
@@ -127,7 +120,7 @@ h3 {
 .header-background {
     height: 382px;
 }
-.title {
+.small-text {
     font-size: 16px;
 }
 section:nth-child(2) {
@@ -154,10 +147,10 @@ section:nth-child(2) {
     margin-bottom: -53px;
 }
 .carousel-indicators li {
-    border: 1px solid #00acd6;
+    background-color: #eae7e3;
 }
 .carousel-indicators .active {
-    background-color: #00acd6;
+    background-color: #467491;
 }
 
 /*Leistungen*/
@@ -189,7 +182,7 @@ section:nth-child(2) {
     margin-top: 75px;
 }
 #director{
-    background-color: #fcf7f3;
+    background-color: #f3f6f8;
     height: 645px;
 }
 #director img {
@@ -198,4 +191,39 @@ section:nth-child(2) {
     margin-right: auto;
     margin-bottom: -198px;
     height: 415px;
+}
+/* Employees */
+.employee {
+    margin-bottom: 70px;
+    padding-left: 53px;
+    margin-top: -13%;
+}
+.employee img {
+    margin-top: 20px;
+    margin-left: 5px;
+    padding-left: 17px;
+    padding-right: 24px;
+}
+.img-center {
+    margin: 0 auto;
+    width: 80%;
+}
+.employee h4 {
+    margin-top: 35px;
+    margin-bottom: 0;
+}
+.employee h4, .employee p {
+    margin-left: -58px;
+}
+/*Kontakt*/
+.contact-praxis{
+    background-color: #467491;
+    color: #ffffff !important;
+}
+.contact-praxis h4 {
+    color: #ffffff;
+}
+.contact-time{
+    background-color: #91acbc;
+
 }
