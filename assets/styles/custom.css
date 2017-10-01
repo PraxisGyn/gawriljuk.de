@@ -14,22 +14,32 @@ p {
     font-family: "Open Sans", sans-serif;
     font-size: 20px;
 }
-.button {
-    text-align: center;
-}
-.btn-info {
+
+/*.btn-info {
     margin-top: 17px !important;
     width: 138px;
-    border-radius: 11px;
-}
-.more-info{
+    border-radius: 1px;
+}*/
+/*.more-info{
     margin: auto;
     text-transform: uppercase;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-weight: bold;
-}
+}*/
 
+.mehr-info .mehrinfo-aktiv {
+    display: none;
+}
+.mehr-info:hover .mehrinfo-inaktiv,
+.mehr-info:active .mehrinfo-inaktiv {
+    display: none;
+}
+.mehr-info:hover .mehrinfo-aktiv,
+.mehr-info:active .mehrinfo-aktiv{
+    display: block;
+    text-align: center;
+}
 /*Nav Menu*/
 nav {
     font-size: 16px;
@@ -103,13 +113,13 @@ h3 {
     position: absolute;
     width: 26%;
     top: 65%;
-    right: 38%;
+    right: 37%;
     z-index: 1;
 }
 .gawriljuk {
     position: absolute;
     left: 50%;
-    margin-left: -195px;
+    margin-left: -184px;
     margin-top: 14%;
     text-transform: uppercase;
 
@@ -173,4 +183,19 @@ section:nth-child(2) {
 }
 #leistungen .col-md-6 {
     margin-bottom: 30px;
+}
+/*Team*/
+#team {
+    margin-top: 75px;
+}
+#director{
+    background-color: #fcf7f3;
+    height: 645px;
+}
+#director img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -198px;
+    height: 415px;
 }
