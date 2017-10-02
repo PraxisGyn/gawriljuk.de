@@ -15,8 +15,18 @@ p {
     font-size: 20px;
     text-transform: none;
 }
+span {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: #58585a;
+    text-transform: none;
+}
 .text-center {
     text-align: center;
+}
+.button{
+    text-align: center;
+    display: inline-block;
 }
 .button .button-aktiv {
     display: none;
@@ -28,7 +38,7 @@ p {
 .button:hover .button-aktiv,
 .button:active .button-aktiv{
     display: block;
-    text-align: center;
+
 }
 .special-text{
     color: #467491;
@@ -110,12 +120,8 @@ h3 {
     z-index: 1;
 }
 .gawriljuk {
-    position: absolute;
-    left: 50%;
-    margin-left: -157px;
-    margin-top: 14%;
+    margin-top: 235px;
     text-transform: uppercase;
-
 }
 .header-background {
     height: 382px;
@@ -181,9 +187,11 @@ section:nth-child(2) {
 #team {
     margin-top: 75px;
 }
-#director{
+#team .container-fluid {
     background-color: #f3f6f8;
-    height: 645px;
+}
+#director{
+    padding-bottom: 150px;
 }
 #director img {
     display: block;
@@ -195,14 +203,12 @@ section:nth-child(2) {
 /* Employees */
 .employee {
     margin-bottom: 70px;
-    padding-left: 53px;
     margin-top: -13%;
 }
 .employee img {
     margin-top: 20px;
-    margin-left: 5px;
-    padding-left: 17px;
-    padding-right: 24px;
+    padding-left: 25px;
+    padding-right: 25px
 }
 .img-center {
     margin: 0 auto;
@@ -212,9 +218,7 @@ section:nth-child(2) {
     margin-top: 35px;
     margin-bottom: 0;
 }
-.employee h4, .employee p {
-    margin-left: -58px;
-}
+
 /*Kontakt*/
 .contact-praxis{
     background-color: #467491;
