@@ -275,7 +275,6 @@ section:nth-child(2) {
 footer {
     height: 55px;
     font-size: 15px;
-    line-height: 55px;
     background-color: #467491;
 }
 footer span, footer h4{
