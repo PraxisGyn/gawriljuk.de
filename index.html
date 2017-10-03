@@ -31,47 +31,49 @@
             </div>
             <div id="navbar-collapse" class="collapse navbar-collapse pull-right">
                 <ul class="nav navbar-nav navbar-right">
-                    <li><a href="./praxis">Praxis</a></li>
-                    <li><a href="./leistungen">Leistungen</a></li>
-                    <li><a href="./team">Team</a></li>
-                    <li><a href="./kontakt">Kontakt</a></li>
+                    <li><a href="./#praxis">Praxis</a></li>
+                    <li><a href="./#leistungen">Leistungen</a></li>
+                    <li><a href="./#team">Team</a></li>
+                    <li><a href="./#contact">Kontakt</a></li>
                 </ul>
             </div>
         </div>
     </nav>
     <article>
-        <section id="gawriljuk">
-            <div class="container">
+        <section id="header">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-12">
                         <h1>Willkommen <br>in Unserer Praxis</h1>
-                        <picture>
-                            <source media="(max-width: 320px)" srcset="assets/images/logo_bg_320px.jpg, assets/images/logo_bg_2x320px.jpg">
-                            <source media="(max-width: 320px)" srcset="assets/images/logo_bg_640px.jpg, assets/images/logo_bg_2x640px.jpg">
-                            <source media="(max-width: 320px)" srcset="assets/images/logo_bg_800px.jpg, assets/images/images/logo_bg_2x800px.jpg">
-                            <source media="(max-width: 320px)" srcset="assets/images/logo_bg.jpg, assets/images/logo_bg_2x.jpg 2x">
-                            <img src="assets/images/logo_bg.jpg" class="img-responsive header-background" alt="">
-                            <img src="assets/images/ag_start_320px.png" class="agStart" alt="agStart">
-                        </picture>
                     </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
                     <div class="col-md-12">
-                        <div class="text-center gawriljuk">
+                        <picture>
+                            <source media="(max-width: 320px)" srcset="assets/images/ag_start_320px.png, assets/images/ag_start_2x320px.png">
+                            <source media="(max-width: 640px)" srcset="assets/images/ag_start_640px.png, assets/images/ag_start_2x640px.png">
+                            <source media="(max-width: 800px)" srcset="assets/images/ag_start_800px.png, assets/images/images/ag_start_2x800px.png">
+                            <source srcset="assets/images/ag_start.png, assets/images/ag_start_2x.png 2x">
+                            <img src="assets/images/ag_start.png" class="img-responsive" alt="agStart">
+                        </picture>
+                        <div class="text-center">
                             <h4><strong>Dr. Med. <br> Alexander Gawriljuk</strong></h4>
-                            <p class="small-text">Facharzt für Gynäkologie und Geburtshilfe</p>
+                            <span>Facharzt für Gynäkologie und Geburtshilfe</span>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
-        <section>
+        <section id="appointment-recipe">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-
+                        <img src="assets/images/icon_termine.svg" class="appointment img-responsive" alt="appointment">
                     </div>
                     <div class="col-md-6">
-
+                        <img src="assets/images/icon_rezepte.svg" class="receipt img-responsive" alt="receipt">
                     </div>
                 </div>
             </div>
@@ -90,11 +92,13 @@
                             nutzen dafür die vielfältigen Möglichkeiten der modernen Medizin. Mein Team und ich setzen allles daran, Ihnen eine zeitnahe
                             Versorgung ohne lange Wartezeiten zu bieten: Wir freuen uns, Sie in unserer Praxis begrüßen zu dürfen.
                         </p>
+
+
                         <div class="row text-center">
                             <div class="col-md-12">
-                                <a href="" class="svg-button">
-                                    <img src="assets/images/button_mehrinfo_hover.svg" class="svg-button-hover" alt="">
-                                    <img src="assets/images/button_mehrinfo.svg" alt="">
+                                <a href="" class="button">
+                                    <img src="assets/images/button_mehrinfo_hover.svg" class="button-aktiv" alt="">
+                                    <img src="assets/images/button_mehrinfo.svg" class="button-inaktiv" alt="">
                                 </a>
                             </div>
                         </div>
@@ -205,17 +209,21 @@
                 </div>
                 <div class="row">
                     <!--Liste-->
-                    <div class="col-md-6">
-                        <p><span class="check"></span>Mädchensprechstunde</p>
-                        <p><span class="check"></span>Junge Frauen</p>
-                        <p><span class="check"></span>Frauen in der Familiengründungsphase</p>
-                        <p><span class="check"></span>Frauen in der Mitte des Lebens</p>
+                    <div class="col-sm-6">
+                        <ul class="list-group">
+                            <li class="list-group-item"><span class="check"></span>Mädchensprechstunde</li>
+                            <li class="list-group-item"><span class="check"></span>Junge Frauen</li>
+                            <li class="list-group-item"><span class="check"></span>Frauen in der Familiengründungsphase</li>
+                            <li class="list-group-item"><span class="check"></span>Frauen in der Mitte des Lebens</li>
+                        </ul>
                     </div>
-                    <div class="col-md-6">
-                        <p><span class="check"></span>Frauen nach der Menopause</p>
-                        <p><span class="check"></span>Frauen mit onkologischen Erkrankungen</p>
-                        <p><span class="check"></span>Impfen</p>
-                        <p><span class="check"></span>IGel-Katalog</p>
+                    <div class="col-sm-6">
+                        <ul class="list-group">
+                            <li class="list-group-item"><span class="check"></span>Frauen nach der Menopause</li>
+                            <li class="list-group-item"><span class="check"></span>Frauen mit onkologischen Erkrankungen</li>
+                            <li class="list-group-item"><span class="check"></span>Impfen</li>
+                            <li class="list-group-item"><span class="check"></span>IGel-Katalog</li>
+                        </ul>
                     </div>
                 </div>
                 <div class="row text-center">
@@ -253,7 +261,7 @@
                                 <div class="col-md-12">
                                     <div class="text-center gawriljuk">
                                         <h4><strong>Dr. Med. Alexander Gawriljuk</strong></h4>
-                                        <p class="small-text">Facharzt für Gynäkologie und Geburtshilfe</p>
+                                        <span>Facharzt für Gynäkologie und Geburtshilfe</span>
                                     </div>
                                 </div>
                             </div>
@@ -277,7 +285,7 @@
                             <img src="assets/images/team_be.png" class="img-responsive img-center" alt="TeamBe">
                         </picture>
                         <h4><strong>Bettina Etzrodt</strong></h4>
-                        <p class="small-text">Arzthelferin</p>
+                        <span>Arzthelferin</span>
                     </div>
                     <div class="col-sm-4 text-center">
                         <picture>
@@ -288,7 +296,7 @@
                             <img src="assets/images/team_af.png" class="img-responsive img-center" alt="TeamAf">
                         </picture>
                         <h4><strong>Andrea Freund</strong></h4>
-                        <p class="small-text">Arzthelferin</p>
+                        <span>Arzthelferin</span>
                     </div>
                     <div class="col-sm-4 text-center">
                         <picture>
@@ -298,7 +306,8 @@
                             <source srcset="assets/images/team_sz.png, assets/images/team_sz_2x.png 2x">
                             <img src="assets/images/team_sz.png" class="img-responsive img-center" alt="TeamSz">
                         </picture>
-                        <h4><strong>Stefanie Zauzig</strong><br><span>Arzthelferin</span></h4>
+                        <h4><strong>Stefanie Zauzig</strong></h4>
+                        <span>Arzthelferin</span>
 
                     </div>
                 </div>
@@ -312,26 +321,67 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-6 contact-praxis">
-                        <h4>Praxis</h4>
-                        <p class="small-text"><strong>Dr.med.Alexander Gawriljuk</strong></p>
-                        <p class="small-text">
-                            Facharzt für Gynäkologie und Geburtshilfe<br>
-                            Laasener Straße 13<br>
-                            07547 Gera
-                        </p>
-                        <div class="group-button">
-                            <a href="" class="button">
-                                <img src="assets/images/button_phone_aktiv.svg" class="button-aktiv" alt="">
-                                <img src="assets/images/button_phone_inaktiv.svg" class="button-inaktiv" alt="">
-                            </a>
-                            <a href="" class="button">
-                                <img src="assets/images/button_email_aktiv.svg" class="button-aktiv" alt="">
-                                <img src="assets/images/button_email_inaktiv.svg" class="button-inaktiv" alt="">
-                            </a>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 contact-praxis">
+                                <h4>Praxis</h4>
+                                <span>
+                                    <strong>Dr.med.Alexander Gawriljuk</strong><br>
+                                    Facharzt für Gynäkologie und Geburtshilfe<br>
+                                    Laasener Straße 13<br>
+                                    07547 Gera
+                                </span>
+                                <div class="group-button">
+                                    <a href="" class="button">
+                                        <img src="assets/images/button_phone_aktiv.svg" class="button-aktiv" alt="">
+                                        <img src="assets/images/button_phone_inaktiv.svg" class="button-inaktiv" alt="">
+                                    </a>
+                                    <a href="" class="button">
+                                        <img src="assets/images/button_email_aktiv.svg" class="button-aktiv" alt="">
+                                        <img src="assets/images/button_email_inaktiv.svg" class="button-inaktiv" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-6 contact-time">
+                                <h4>Sprechzeiten</h4>
+                                <span>
+                                    <strong class="date">MO/MI/FR</strong>8-12 <br>
+                                    <strong class="date">Di</strong>8-12/ 14-18 <br>
+                                    <strong class="date">Do</strong>10-13/15-18 <br>
+                                    und nach Vereinbarung
+                                </span>
+                                <div>
+                                    <span>
+                                        Bitte denken Sie daran, bei jedem Besuch Ihre <br>
+                                        Versicherkarte vorzulegen.
+                                    </span>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-6 contact-time">b</div>
+                </div>
+            </div>
+        </section>
+        <section id="map">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <span>
+                            Außerhalb unserer Sprechzeiten erreichen Sie den kassenärztlichen Notdienst unter <span class="date"><strong>116117</strong></span> oder stellen sich in der Klinik
+                            vor. In lebensbedrohlichen Notfällen, überregelstarker Blutung oder Blasensprung wählen Sie bitte die <span class="date"><strong>112</strong></span>
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <picture>
+                            <source media="(max-width: 320px)" srcset="assets/images/map_320px.jpg, assets/images/map_2x320px.jpg 2x">
+                            <source media="(max-width: 640px)" srcset="assets/images/map_640px.jpg, assets/images/map_2x640px.jpg 2x">
+                            <source media="(max-width: 800px)" srcset="assets/images/map_800px.jpg, assets/images/map_2x800px.jpg 2x">
+                            <source srcset="assets/images/map.jpg, assets/images/map_2x.jpg 2x">
+                            <img src="assets/images/map.jpg" class="img-responsive" alt="Map">
+                        </picture>
+                    </div>
                 </div>
             </div>
         </section>
@@ -339,11 +389,17 @@
 <footer>
     <div class="container">
         <div class="row">
-            <div class="col-xs-2"></div>
+            <div class="col-xs-3">
+                <span>© Alexander Gawriluj</span>
+            </div>
+            <div class="col-xs-9 text-right">
+                <a href="impressum.html"><h4>Impressum / Datenschutz</h4></a><br>
+            </div>
         </div>
     </div>
 </footer>
     <script language="javascript" type="text/javascript" src="vendor/jQuery/dist/jquery.min.js"></script>
     <script language="javascript" type="text/javascript" src="vendor/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script language="javascript" type="text/javascript" src="assets/scripts/custom.js"></script>
 </body>
 </html>

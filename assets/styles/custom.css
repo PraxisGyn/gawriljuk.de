@@ -10,6 +10,9 @@ body {
 .container {
     max-width: 970px;
 }
+a {
+    text-decoration: none !important;
+}
 p {
     font-family: "Open Sans", sans-serif;
     font-size: 20px;
@@ -63,6 +66,7 @@ nav .navbar-brand img {
 nav.navbar-default {
     background-color: #ffffff;
     border-color: #ffffff;
+    margin-top: -8px;
 }
 nav.navbar-default ul {
     margin-top: 75px;
@@ -111,20 +115,22 @@ h3 {
     text-transform: uppercase;
     color: #467491;
 }
-
-.agStart {
-    position: absolute;
-    width: 26%;
-    top: 65%;
-    right: 37%;
+/*Header*/
+#header .container-fluid {
+    background: url('../images/logo_bg.jpg') no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 340px;
+}
+#header img {
+    margin-top: -15%;
+    margin-left: 35%;
     z-index: 1;
 }
 .gawriljuk {
     margin-top: 235px;
-    text-transform: uppercase;
-}
-.header-background {
-    height: 382px;
 }
 .small-text {
     font-size: 16px;
@@ -160,7 +166,7 @@ section:nth-child(2) {
 }
 
 /*Leistungen*/
-#leistungen p {
+#leistungen li {
     display: flex;
     align-items: center;
     padding-top: 9px;
@@ -168,21 +174,27 @@ section:nth-child(2) {
     line-height: 125%;
     color: #58585a;
     border-top: 1px solid #467491;
+    border-left: none;
+    border-right:none ;
 }
-#leistungen p:nth-last-child(1){
+.list-group-item:first-child, .list-group-item:last-child {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+#leistungen li:nth-last-child(1){
     border-bottom: 1px solid #467491;
     padding-bottom: 9px;
 }
-#leistungen p > span.check {
+#leistungen li > span.check {
     margin-right: 10px;
     width: 50px;
     height: 40px;
     background: url('../images/icon_check.svg') no-repeat left;
     background-size: 40px 40px;
 }
-#leistungen .col-md-6 {
-    margin-bottom: 30px;
-}
+/*#leistungen .list-group {
+    margin-bottom: 0;
+}*/
 /*Team*/
 #team {
     margin-top: 75px;
@@ -220,24 +232,55 @@ section:nth-child(2) {
 }
 
 /*Kontakt*/
-.contact-praxis{
+.contact-praxis {
     background-color: #467491;
     color: #ffffff !important;
     padding-top: 50px;
-    padding-left: 350px;
-
+    padding-bottom: 30px;
+}
+.contact-praxis span {
+    color: #ffffff !important;
 }
 .contact-praxis h4 {
     color: #ffffff;
     margin-bottom: 37px;
 }
 .contact-time{
-    background-color: #91acbc;
-
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 66px;
+    background-color: #f3f6f8;
+}
+.contact-time h4 {
+    margin-bottom: 37px;
+}
+.date {
+    color: #467491;
+    margin-right: 10px;
+}
+.contact-time div {
+    margin-top: 10px;
 }
 .group-button {
     margin-top: 15px;
 }
 .group-button a{
     margin-right: 17px;
+}
+/*Map*/
+#map, #map img {
+    margin-top: 40px;
+}
+/*Footer*/
+footer {
+    height: 55px;
+    font-size: 15px;
+    line-height: 55px;
+    background-color: #467491;
+}
+footer span, footer h4{
+    color: #ffffff;
+}
+footer h4 {
+    padding-top: 8px;
 }
