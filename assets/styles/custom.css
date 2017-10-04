@@ -135,9 +135,6 @@ h3 {
 .small-text {
     font-size: 16px;
 }
-section:nth-child(2) {
-    margin-top: 240px;
-}
 /*Carousel Slider*/
 #carousel {
     margin-top: 45px;
@@ -163,6 +160,31 @@ section:nth-child(2) {
 }
 .carousel-indicators .active {
     background-color: #467491;
+}
+/*appointment-recipe*/
+#appointment-recipe {
+    margin-top: 90px;
+    margin-bottom: 123px;
+}
+#appointment-recipe .col-xs-5:nth-child(1) {
+    width: 48%;
+    background-color: #91acbc;
+    color: #ffffff;
+}
+#appointment-recipe .col-xs-5:last-child {
+    width: 48%;
+    background-color: #467491;
+    color: #ffffff;
+}
+#appointment-recipe .col-xs-2 {
+    width: 0;
+}
+#appointment-recipe h3 {
+    color: #ffffff !important;
+    padding-bottom: 2px;
+}
+.appointment, .receipt {
+    padding-top: 37px;
 }
 
 /*Leistungen*/
@@ -224,7 +246,6 @@ section:nth-child(2) {
 }
 .img-center {
     margin: 0 auto;
-    width: 80%;
 }
 .employee h4 {
     margin-top: 35px;
@@ -274,12 +295,13 @@ section:nth-child(2) {
 /*Footer*/
 footer {
     height: 55px;
-    font-size: 15px;
     background-color: #467491;
 }
 footer span, footer h4{
     color: #ffffff;
 }
 footer h4 {
-    padding-top: 8px;
+    margin-top: 20px;
+}
+footer span {
 }
