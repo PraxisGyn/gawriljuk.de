@@ -31,6 +31,9 @@ span {
     text-align: center;
     display: inline-block;
 }
+.button img {
+    vertical-align: baseline;
+}
 .button .button-aktiv {
     display: none;
 }
@@ -60,7 +63,7 @@ nav .navbar-brand {
     padding-bottom: 0;
 }
 nav .navbar-brand img {
-    margin-top: 30px;
+    margin-top: 34px;
     margin-bottom: 30px;
 }
 nav.navbar-default {
@@ -126,14 +129,10 @@ h3 {
 }
 #header img {
     margin-top: -15%;
-    margin-left: 35%;
     z-index: 1;
 }
 .gawriljuk {
     margin-top: 235px;
-}
-.small-text {
-    font-size: 16px;
 }
 /*Carousel Slider*/
 #carousel {
@@ -258,6 +257,7 @@ h3 {
     color: #ffffff !important;
     padding-top: 50px;
     padding-bottom: 30px;
+    padding-left: 21%;
 }
 .contact-praxis span {
     color: #ffffff !important;
@@ -283,7 +283,7 @@ h3 {
     margin-top: 10px;
 }
 .group-button {
-    margin-top: 15px;
+    margin-top: 9px;
 }
 .group-button a{
     margin-right: 17px;
@@ -304,4 +304,34 @@ footer h4 {
     margin-top: 20px;
 }
 footer span {
+}
+
+/*Media Querie*/
+@media only screen and (max-width: 991px) {
+    .contact-praxis {
+        padding-left: 7% !important;
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    nav.navbar {
+        min-height: 54px;
+    }
+    nav .navbar-brand img {
+        margin-top: 15px;
+        margin-bottom: 5px;
+    }
+    nav.navbar-default ul {
+        margin-top: 7px;
+    }
+    #header img {
+        width: 40%;
+        margin-top: -20%;
+    }
+    .employee img {
+        margin-top: 100px;
+    }
+    .navbar-default .navbar-toggle {
+        margin-top: 29px;
+    }
 }
