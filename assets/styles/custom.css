@@ -294,16 +294,16 @@ h3 {
 }
 /*Footer*/
 footer {
-    height: 55px;
     background-color: #467491;
 }
 footer span, footer h4{
     color: #ffffff;
 }
 footer h4 {
-    margin-top: 20px;
+    margin-top: 34px;
 }
-footer span {
+footer .col-xs-4 {
+    margin-top: 32px;
 }
 
 /*Media Querie*/
@@ -330,8 +330,17 @@ footer span {
     }
     .employee img {
         margin-top: 100px;
+        width: 80%;
     }
     .navbar-default .navbar-toggle {
         margin-top: 29px;
+    }
+    footer h4{
+        font-size: 12px;
+        line-height: 20px;
+        margin-top: 36px;
+    }
+    footer span {
+        font-size: 10px;
     }
 }
