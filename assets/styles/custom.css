@@ -4,6 +4,7 @@ html, body {
     font-size: 16px;
     color: #58585a;
 }
+
 body {
     position: relative;
 }
@@ -44,23 +45,27 @@ h4 {
 a {
     text-decoration: none !important;
 }
+
 p {
     font-family: "Open Sans", sans-serif;
     font-size: 20px;
     text-transform: none;
 }
+
 span {
     font-family: "Open Sans", sans-serif;
     font-size: 16px;
     color: #58585a;
     text-transform: none;
 }
+
 .text-center {
     text-align: center;
 }
 .img-center {
     margin: 0 auto;
 }
+
 .button{
     text-align: center;
     display: inline-block;
@@ -80,9 +85,11 @@ span {
     display: block;
 
 }
+
 .special-text{
     color: #467491;
 }
+
 .container {
     max-width: 970px;
 }
@@ -327,6 +334,15 @@ nav.navbar-default li > a:active {
 }
 #map img {
     margin-top: 50px;
+}
+
+/* Impressum */
+#imprint {
+    margin-bottom: 30px;
+}
+#imprint p {
+    font-size: 16px;
+    line-height: 24px;
 }
 
 /* Footer */
