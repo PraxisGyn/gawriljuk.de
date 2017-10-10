@@ -89,7 +89,7 @@ nav {
     font-size: 16px;
 }
 nav.navbar {
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     border: 0;
     min-height: 114px;
 }
@@ -124,7 +124,17 @@ nav.navbar-default li > a:active {
     color: #467491 !important;
 }
 
-/* Header */
+/*Note*/
+#note {
+    background-color: #00ffff;
+}
+#note h3 {
+    text-align: left;
+}
+#note p {
+    padding-bottom: 15px;
+}
+/*Header*/
 #header .container-fluid {
     background: url('../images/logo_bg.jpg') no-repeat center;
     -webkit-background-size: cover;
@@ -167,8 +177,8 @@ nav.navbar-default li > a:active {
 
 /* Termine & Rezepte */
 #appointment-recipe {
-    margin-top: 20px;
-    margin-bottom: 30px;
+    margin-top: 70px;
+    margin-bottom: 100px;
 }
 #appointment-recipe .col-xs-5:nth-child(1) {
     width: 48%;
@@ -192,7 +202,10 @@ nav.navbar-default li > a:active {
     padding-top: 37px;
 }
 
-/* Leistungen */
+/*Leistungen*/
+#leistungen {
+    margin-top: 20px;
+}
 #leistungen li {
     display: flex;
     align-items: center;
@@ -219,10 +232,13 @@ nav.navbar-default li > a:active {
     background: url('../images/icon_check.svg') no-repeat left;
     background-size: 40px 40px;
 }
+.leistungen-list {
+    margin-bottom: 22px;
+}
 
-/* Team */
+/*Team*/
 #team {
-    margin-top: 75px;
+    margin-top: 70px;
 }
 #team .container-fluid {
     padding-bottom: 150px;
@@ -304,12 +320,22 @@ nav.navbar-default li > a:active {
 }
 
 /* Footer */
+
+/*Impressium*/
+#daten-schutz {
+    margin-bottom: 40px;
+}
+
+/*Footer*/
 footer {
     height: 60px;
-    font-size: 15px;
-    line-height: 60px;
+    font-size: 16px;
+    line-height: 24px;
     background-color: #467491;
     color: #ffffff;
+}
+.text-footer {
+    padding-top: 12px;
 }
 footer a {
     text-decoration: none;
@@ -338,7 +364,7 @@ footer a:focus {
     }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 769px) {
     nav.navbar {
         min-height: 54px;
     }
