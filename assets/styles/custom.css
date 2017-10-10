@@ -21,15 +21,6 @@ h1 {
     text-transform: uppercase;
     color: #ffffff;
 }
-h4 {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    line-height: 30px;
-    color: #467491;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
 h3 {
     margin-bottom: 30px;
     font-family: 'Montserrat', sans-serif;
@@ -38,6 +29,16 @@ h3 {
     text-transform: uppercase;
     color: #467491;
 }
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 30px;
+    color: #467491;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
 a {
     text-decoration: none !important;
 }
@@ -227,6 +228,10 @@ nav.navbar-default li > a:active {
     padding-bottom: 150px;
     background-color: #f3f6f8;
 }
+#team h4 {
+    margin-top: 35px;
+    margin-bottom: 0;
+}
 
 /* Employees */
 .employee {
@@ -238,10 +243,6 @@ nav.navbar-default li > a:active {
 .employee img {
     padding-left: 25px;
     padding-right: 25px
-}
-.employee h4 {
-    margin-top: 35px;
-    margin-bottom: 0;
 }
 
 /* Kontakt */
