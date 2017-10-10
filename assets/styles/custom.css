@@ -84,7 +84,7 @@ nav {
     font-size: 16px;
 }
 nav.navbar {
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     border: 0;
     min-height: 114px;
 }
@@ -119,7 +119,16 @@ nav.navbar-default li > a:active {
     color: #467491 !important;
 }
 
-
+/*Note*/
+#note {
+    background-color: #00ffff;
+}
+#note h3 {
+    text-align: left;
+}
+#note p {
+    padding-bottom: 15px;
+}
 /*Header*/
 #header .container-fluid {
     background: url('../images/logo_bg.jpg') no-repeat center;
@@ -164,8 +173,8 @@ nav.navbar-default li > a:active {
 }
 /*appointment-recipe*/
 #appointment-recipe {
-    margin-top: 20px;
-    margin-bottom: 30px;
+    margin-top: 70px;
+    margin-bottom: 100px;
 }
 #appointment-recipe .col-xs-5:nth-child(1) {
     width: 48%;
@@ -190,6 +199,9 @@ nav.navbar-default li > a:active {
 }
 
 /*Leistungen*/
+#leistungen {
+    margin-top: 20px;
+}
 #leistungen li {
     display: flex;
     align-items: center;
@@ -216,12 +228,15 @@ nav.navbar-default li > a:active {
     background: url('../images/icon_check.svg') no-repeat left;
     background-size: 40px 40px;
 }
+.leistungen-list {
+    margin-bottom: 22px;
+}
 /*#leistungen .list-group {
     margin-bottom: 0;
 }*/
 /*Team*/
 #team {
-    margin-top: 75px;
+    margin-top: 70px;
 }
 #team .container-fluid {
     background-color: #f3f6f8;
@@ -295,21 +310,32 @@ nav.navbar-default li > a:active {
 #map, #map img {
     margin-top: 40px;
 }
+
+/*Impressium*/
+#daten-schutz {
+    margin-bottom: 40px;
+}
+
 /*Footer*/
 footer {
     background-color: #467491;
     color: #ffffff;
     height: 50px;
-    font-size: 12px;
-    line-height: 50px;
+    font-size: 16px;
+    line-height: 24px;
 
+}
+.text-footer {
+    padding-top: 12px;
 }
 footer a{
     color: #ffffff;
     font-size: 14px;
     text-transform: uppercase;
     white-space: nowrap;
-
+}
+footer a:hover {
+    color: white;
 }
 
 
@@ -319,9 +345,12 @@ footer a{
         width: 40%;
         margin-top: -20%;
     }
+    .contact-praxis {
+        padding-left: 7%;
+    }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 769px) {
     nav.navbar {
         min-height: 54px;
     }
