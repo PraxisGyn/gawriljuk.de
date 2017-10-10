@@ -25,6 +25,7 @@ h4 {
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: bold;
+    line-height: 30px;
     color: #467491;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -53,6 +54,9 @@ span {
 }
 .text-center {
     text-align: center;
+}
+.img-center {
+    margin: 0 auto;
 }
 .button{
     text-align: center;
@@ -142,10 +146,8 @@ nav.navbar-default li > a:active {
     margin-top: -15%;
     z-index: 1;
 }
-.gawriljuk {
-    margin-top: 235px;
-}
-/*Carousel Slider*/
+
+/* Carousel Slider */
 #carousel {
     margin-top: 45px;
     margin-bottom: 80px;
@@ -171,7 +173,8 @@ nav.navbar-default li > a:active {
 .carousel-indicators .active {
     background-color: #467491;
 }
-/*appointment-recipe*/
+
+/* Termine & Rezepte */
 #appointment-recipe {
     margin-top: 70px;
     margin-bottom: 100px;
@@ -231,85 +234,91 @@ nav.navbar-default li > a:active {
 .leistungen-list {
     margin-bottom: 22px;
 }
-/*#leistungen .list-group {
-    margin-bottom: 0;
-}*/
+
 /*Team*/
 #team {
     margin-top: 70px;
 }
 #team .container-fluid {
+    padding-bottom: 150px;
     background-color: #f3f6f8;
 }
-#director{
-    padding-bottom: 150px;
-}
-#director img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: -198px;
-    height: 415px;
-}
+
 /* Employees */
 .employee {
     margin-bottom: 70px;
-    margin-top: -13%;
+}
+.employee div.col-sm-4 {
+    margin-top: -94px;
 }
 .employee img {
-    margin-top: 20px;
     padding-left: 25px;
     padding-right: 25px
-}
-.img-center {
-    margin: 0 auto;
 }
 .employee h4 {
     margin-top: 35px;
     margin-bottom: 0;
 }
 
-/*Kontakt*/
+/* Kontakt */
 .contact-praxis {
+    padding: 50px 0 40px 0;
     background-color: #467491;
-    color: #ffffff !important;
-    padding-top: 50px;
-    padding-bottom: 30px;
-    padding-left: 21%;
+    color: #ffffff;
 }
-.contact-praxis span {
-    color: #ffffff !important;
+.contact-praxis .inner {
+    padding-right: 100px;
+    max-width: 455px;
+    float: right;
 }
 .contact-praxis h4 {
     color: #ffffff;
-    margin-bottom: 37px;
+    margin-bottom: 20px;
 }
-.contact-time{
-    padding-top: 50px;
-    padding-bottom: 30px;
-    padding-left: 66px;
+.contact-praxis p {
+    font-size: 16px;
+    line-height: 24px;
+}
+.contact-praxis .bottom {
+    margin-top: 32px;
+    margin-bottom: 10px;
+}
+.contact-praxis .bottom div {
+    height: 40px;
+}
+.contact-time {
+    padding: 50px 0 40px 0;
+    font-size: 16px;
+    line-height: 24px;
     background-color: #f3f6f8;
 }
+.contact-time .inner {
+    padding-left: 60px;
+    max-width: 455px;
+    float: left;
+}
 .contact-time h4 {
-    margin-bottom: 37px;
+    margin-bottom: 20px;
 }
-.date {
+.contact-time p {
+    font-size: 16px;
+    line-height: 24px;
+}
+.contact-time strong {
     color: #467491;
-    margin-right: 10px;
 }
-.contact-time div {
-    margin-top: 10px;
+.contact-time .bottom {
+    margin-top: 24px;
 }
-.group-button {
-    margin-top: 9px;
-}
-.group-button a{
-    margin-right: 17px;
-}
-/*Map*/
-#map, #map img {
+/* Map */
+#map {
     margin-top: 40px;
 }
+#map img {
+    margin-top: 50px;
+}
+
+/* Footer */
 
 /*Impressium*/
 #daten-schutz {
@@ -318,35 +327,39 @@ nav.navbar-default li > a:active {
 
 /*Footer*/
 footer {
-    background-color: #467491;
-    color: #ffffff;
-    height: 50px;
+    height: 60px;
     font-size: 16px;
     line-height: 24px;
-
+    background-color: #467491;
+    color: #ffffff;
 }
 .text-footer {
     padding-top: 12px;
 }
-footer a{
-    color: #ffffff;
-    font-size: 14px;
+footer a {
+    text-decoration: none;
     text-transform: uppercase;
     white-space: nowrap;
+    color: #ffffff;
 }
-footer a:hover {
-    color: white;
+footer a:hover,
+footer a:focus {
+    color: #ffffff;
+    text-decoration: underline;
 }
 
-
-/*Media Querie*/
+/* Media Queries */
 @media only screen and (max-width: 991px) {
     #header img {
         width: 40%;
         margin-top: -20%;
     }
-    .contact-praxis {
-        padding-left: 7%;
+    .contact-praxis .inner {
+        padding-left: 15px;
+        padding-right: 20px;
+    }
+    .contact-time .inner {
+        padding-left: 20px;
     }
 }
 
@@ -361,6 +374,9 @@ footer a:hover {
     nav.navbar-default ul {
         margin-top: 7px;
     }
+    .navbar-default .navbar-toggle {
+        margin-top: 29px;
+    }
     #header img {
         width: 40%;
         margin-top: -20%;
@@ -369,26 +385,24 @@ footer a:hover {
     #appointment-recipe .col-xs-5:last-child {
         width: 100%;
     }
-    .employee img {
-        margin-top: 100px;
-        width: 50%;
+    .employee div.col-sm-4 {
+        margin-top: 50px;
+
     }
-    .navbar-default .navbar-toggle {
-        margin-top: 29px;
+    .employee img {
+        width: 50%;
     }
     #leistungen .col-sm-6:nth-child(1) {
         margin-bottom: -21px;
     }
-    .contact-praxis {
-        padding-left: 8%;
+    #team .container-fluid {
+        padding-bottom: 50px;
     }
-    footer h4{
-        font-size: 12px;
-        line-height: 20px;
+    .contact-praxis .inner {
+        float: none;
     }
-}
-@media only screen and (max-width: 480px) {
-    .contact-praxis {
-        padding-left: 16%;
+    .contact-time .inner {
+        float: none;
+        padding-left: 15px;
     }
 }
