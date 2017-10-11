@@ -50,6 +50,7 @@ a {
 p {
     font-family: "Open Sans", sans-serif;
     font-size: 20px;
+    line-height: 30px;
     text-transform: none;
 }
 
@@ -218,6 +219,10 @@ nav.navbar-default li > a:active {
 }
 .appointment, .receipt {
     padding-top: 37px;
+}
+
+#praxis .button {
+    margin-top: 20px;
 }
 
 /*Leistungen*/
