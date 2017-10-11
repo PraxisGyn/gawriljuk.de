@@ -450,6 +450,10 @@ footer a:focus {
     #team .container-fluid {
         padding-bottom: 50px;
     }
+    #team h4 {
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
     .contact-praxis .inner {
         float: none;
     }
