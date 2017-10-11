@@ -403,6 +403,7 @@ footer a:focus {
 @media only screen and (max-width: 767px) {
     h1 {
         font-size: 30px;
+        line-height: 42px;
         margin-left: -160px;
     }
     nav.navbar {
@@ -429,8 +430,8 @@ footer a:focus {
     }
 
     #header img {
-        width: 40%;
-        margin-top: -20%;
+        width: 60%;
+        margin-top: -30%;
     }
     #appointment-recipe .col-xs-5:nth-child(1),
     #appointment-recipe .col-xs-5:last-child {
