@@ -401,6 +401,10 @@ footer a:focus {
 }
 
 @media only screen and (max-width: 767px) {
+    h1 {
+        font-size: 30px;
+        margin-left: -160px;
+    }
     nav.navbar {
         margin-bottom: 0;
         padding-top: 15px;
