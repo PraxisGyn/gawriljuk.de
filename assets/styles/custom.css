@@ -247,9 +247,13 @@ nav.navbar-default li > a:active {
 .list-group-item:first-child, .list-group-item:last-child {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
+    border-radius: 0;
 }
-#leistungen li:nth-last-child(1){
+#leistungen li:nth-last-child(1) {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
     border-bottom: 1px solid #467491;
+    border-radius: 0;
     padding-bottom: 9px;
 }
 #leistungen li > span.check {
