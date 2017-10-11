@@ -358,6 +358,7 @@ body.imprint  h3 {
     margin-top: 50px;
 }
 body.imprint  p {
+    margin-bottom: 30px;
     font-size: 16px;
     line-height: 24px;
 }
