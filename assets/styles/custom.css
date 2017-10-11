@@ -233,7 +233,6 @@ nav.navbar-default li > a:active {
     display: flex;
     align-items: center;
     padding-top: 9px;
-    font-weight: bold;
     line-height: 125%;
     color: #58585a;
     border-top: 1px solid #467491;
