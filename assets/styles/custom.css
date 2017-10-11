@@ -193,6 +193,7 @@ nav.navbar-default li > a:active {
     margin-bottom: -53px;
 }
 .carousel-indicators li {
+    border: none;
     background-color: #eae7e3;
 }
 .carousel-indicators .active {
