@@ -354,6 +354,9 @@ nav.navbar-default li > a:active {
 }
 
 /* Impressum */
+body.imprint  h3 {
+    margin-top: 50px;
+}
 body.imprint  p {
     font-size: 16px;
     line-height: 24px;
