@@ -337,12 +337,12 @@ nav.navbar-default li > a:active {
 }
 
 /* Impressum */
-#imprint {
-    margin-bottom: 30px;
-}
-#imprint p {
+body.imprint  p {
     font-size: 16px;
     line-height: 24px;
+}
+body.imprint footer {
+    margin-top: 30px;
 }
 
 /* Footer */
