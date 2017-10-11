@@ -33,10 +33,11 @@ h3 {
     color: #467491;
 }
 h4 {
+    margin-bottom: 5px;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
     font-weight: bold;
-    line-height: 30px;
+    line-height: 24px;
     color: #467491;
     text-transform: uppercase;
     letter-spacing: 2px;
