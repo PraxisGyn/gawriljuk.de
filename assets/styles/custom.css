@@ -346,6 +346,9 @@ nav.navbar-default li > a:active {
 #map {
     margin-top: 40px;
 }
+#map strong {
+    color: #467491;
+}
 #map img {
     margin-top: 50px;
 }
