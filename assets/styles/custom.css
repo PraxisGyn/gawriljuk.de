@@ -73,24 +73,38 @@ span {
     margin: 0 auto;
 }
 
-.button{
-    text-align: center;
-    display: inline-block;
-}
-.button img {
-    vertical-align: baseline;
-}
-.button .button-aktiv {
-    display: none;
-}
-.button:hover .button-inaktiv,
-.button:active .button-inaktiv {
-    display: none;
-}
-.button:hover .button-aktiv,
-.button:active .button-aktiv{
-    display: block;
 
+a.button {
+    position: relative;
+    display: block;
+    width: 150px;
+    height: 40px;
+    outline: none;
+    text-indent: -99999px;
+}
+a.button-more {
+    background: url('../images/button_more.svg') left top no-repeat;
+    background-size: 150px 40px;
+}
+a.button-more:hover,
+a.button-more:active {
+    background-image: url('../images/button_more_hover.svg');
+}
+a.button-phone {
+    background: url('../images/button_phone.svg') center center no-repeat;
+    background-size: 150px 40px;
+}
+a.button-phone:hover,
+a.button-phone:active {
+    background-image: url('../images/button_phone_hover.svg');
+}
+a.button-email {
+    background: url('../images/button_email.svg') left top no-repeat;
+    background-size: 150px 40px;
+}
+a.button-email:hover,
+a.button-email:active {
+    background-image: url('../images/button_email_hover.svg');
 }
 
 .special-text{
@@ -232,11 +246,11 @@ nav.navbar-default li > a:active {
     padding-top: 37px;
 }
 
-#praxis .button {
-    margin-top: 20px;
+#praxis a.button {
+    margin: 20px auto 0 auto;
 }
 
-/*Leistungen*/
+/* Leistungen */
 #leistungen {
     margin-top: 20px;
 }
@@ -271,8 +285,11 @@ nav.navbar-default li > a:active {
 .leistungen-list {
     margin-bottom: 22px;
 }
+#leistungen a.button {
+    margin: 0 auto;
+}
 
-/*Team*/
+/* Team */
 #team {
     margin-top: 70px;
 }
