@@ -338,7 +338,7 @@ nav.navbar-default li > a:active {
     margin-bottom: 10px;
 }
 .contact-praxis .bottom div {
-    height: 40px;
+    height: 70px; /* GB 2018-30-05 added +30 px to adjust height of praxis container */
 }
 .contact-time {
     padding: 50px 0 40px 0;
