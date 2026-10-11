@@ -268,25 +268,27 @@ nav.navbar-default li > a:active {
     margin-top: 70px;
     margin-bottom: 100px;
 }
-#appointment-recipe .col-xs-5:nth-child(1) {
-    width: 48%;
-    margin-right: 25px;
+#appointment-recipe .col-sm-4 div {
     background-color: #91acbc;
     color: #ffffff;
 }
-#appointment-recipe .col-xs-5:last-child {
-    width: 48%;
+#appointment-recipe .col-sm-4:nth-child(2) div {
     background-color: #467491;
     color: #ffffff;
 }
-#appointment-recipe .col-xs-2 {
-    width: 0;
-}
 #appointment-recipe h3 {
+    margin-bottom: 0;
     color: #ffffff !important;
     padding-bottom: 2px;
 }
-.appointment, .receipt {
+#appointment-recipe p {
+    padding-bottom: 50px;
+    font-size: 16px;
+    color: #ffffff !important;
+}
+#appointment-recipe .appointment,
+#appointment-recipe .receipt,
+#appointment-recipe .email {
     padding-top: 37px;
 }
 
